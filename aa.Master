@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="aa.master.cs" Inherits="Agriculture_system.aa" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+	<link rel="stylesheet" type="text/css" href="stylesheet2.css">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+   
+
+
+
+
+
+
+        <div>
+
+           
+	<!----hero Section start---->
+
+	<div class="hero">
+
+<header id="header">  
+	<nav>
+			<h2 class="logo">Agri<span>culture</span></h2>
+			<ul>
+				<li><a href="Home1.aspx">Home</a></li>
+				<li><a href="about.aspx">About Us</a></li>
+				<li><a href="Services.aspx">Services</a></li>
+				<li><a href="contact.aspx">Contact Us</a></li>
+			</ul>
+			<a href="login.aspx" class="btn">Log Out</a>
+		</nav>  
+</header>  	
+
+		
+		</div>
+	</div>
+
+	<!----About section start---->
+	
+
+	<!-----service section start----------->
+	
+			
+
+			
+
+	<!------Contact Me------>
+	<div class="contact-me">
+		<p>Ask use your questions we are with you.</p>
+		<a class="button-two" href="#">Ask Us</a>
+	</div>
+
+
+ 
+
+
+
+
+
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+  
+</body>
+</html>
